@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+/* App.css */
+.data-container {
+  margin: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.ReactSelect__control {
+  width: 300px;
+  margin-top: 10px;
+}
+
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+.dashboard-container {
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.chart-container {
+  margin-top: 30px;
+}
+
+.table-container {
+  margin-top: 30px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.table-container .rdt_Table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
